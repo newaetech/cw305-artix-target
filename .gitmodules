@@ -1,0 +1,3 @@
+[submodule "fw/sam3u/CW305_SAM3U_FW/src/naeusb"]
+	path = fw/sam3u/CW305_SAM3U_FW/src/naeusb
+	url = https://github.com/newaetech/naeusb
