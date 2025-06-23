@@ -59,9 +59,9 @@ bool cdce906_write(uint8_t addr, uint8_t data)
 	};
 	
 	if (twi_master_write(TWI1, &packet_write) == TWI_SUCCESS){
-		return true;
+		return 0;
 	} else {
-		return false;
+		return 1;
 	}
 }
 
@@ -76,8 +76,8 @@ bool cdce906_read(uint8_t addr, uint8_t * data)
 	};
 	
 	if(twi_master_read(TWI1, &packet_read) == TWI_SUCCESS){
-		return true;
+		return 0;
 	} else {
-		return false;
+		return 1;
 	}	
 }
