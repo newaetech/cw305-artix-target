@@ -72,7 +72,7 @@ extern char usb_serial_number[33];
 
 #define FW_VER_MAJOR 0
 #define FW_VER_MINOR 53
-#define FW_VER_DEBUG 0
+#define FW_VER_DEBUG 1
 
 #define  USB_DEVICE_MANUFACTURE_NAME      "NewAE Technology Inc."
 #define  USB_DEVICE_PRODUCT_NAME          "ChipWhisperer CW305"
